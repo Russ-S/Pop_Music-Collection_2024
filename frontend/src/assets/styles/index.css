@@ -1,0 +1,236 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+main {
+  min-height: 86vh;
+}
+main {
+  width: 100vw;
+  padding: 10px 20px;
+  background-color: #efefef;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Chicago-AXS-1200x628-419b37eba6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Home page */
+.homePageTitle {
+  margin-top: 200px;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.btn-link {
+  border: 1px solid white;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 2rem;
+  transition: 0.5s ease-in-out;
+}
+.btn-link:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.bg-dark-blue {
+  background-color: rgb(60, 76, 93) !important;
+  color: white;
+}
+/* Form styles */
+.loginForm,
+.registerForm {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.loginForm {
+  margin-top: 100px;
+}
+.registerForm {
+  margin-top: 75px;
+}
+.profileForm {
+  margin-top: 75px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.propertyList {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.labelName {
+  font-weight: 600;
+}
+.borderWhite {
+  border: 1px solid #fff;
+}
+.sidebar {
+  width: 250px;
+  flex: 0 0 250px;
+  height: 100vh;
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.recordingList {
+  flex: 1;
+  margin-left: 30px;
+  height: 100%;
+  background-color: rgb(233, 238, 233);
+  color: #000;
+  padding: 1rem;
+  border-radius: 10px;
+  align-items: center;
+}
+.searchForm {
+  position: relative;
+  width: auto;
+  text-align: center;
+  right: 35px;
+}
+.searchForm input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 12px;
+  outline: none;
+}
+.searchForm button {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  background: transparent;
+  border: none;
+}
+.searchResults {
+  flex: 1;
+  height: 100%;
+  background-color: rgb(233, 238, 233);
+  color: #000;
+  padding: 1rem;
+  border-radius: 10px;
+  align-items: center;
+}
+.searchBox {
+  border-radius: 10px;
+  outline: none;
+  margin-right: 20px;
+  width: 80%;
+}
+.searchResultCard {
+  position: relative;
+  width: 230px;
+  height: 250px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: -2;
+  background-color: #000;
+}
+
+.card-container a {
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  width: 240px;
+  height: 225px;
+  margin: 10px;
+  padding-top: 10px;
+  border: 2px solid #ededed;
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 650;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.card-year {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.cardFooter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.recordingDetail {
+  background: #fff;
+  padding: 20px 20px 50px 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.mainTitle {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+  text-shadow: 4px 4px 8px #000;
+  animation: slideInFromLeft 2s ease-in;
+}
+.mainSubtitle {
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 4px 4px 10px #000;
+  animation: slideInFromRight 2s ease-in;
+}
+/* Animations */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
